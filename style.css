@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 90%;
+  margin: 0 5%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 5%;
+}
+
+header ul a {
+  text-decoration: none;
+}
+
+header ul li {
+  background-color: wheat;
+  color: black;
+  list-style: none;
+  padding: .5vh 2vw;
+  margin-right: 1vw;
+  border-radius: 15%;
+}
+
+main {
+  width: 80%;
+  margin: 5% 10%;
+}
+
+main p {
+  text-indent: 1em;
+}
+
+main h2 {
+  margin-bottom: 0;
+  border-bottom: 1px solid gray;
+}
+
+main #content span {
+  color: gray;
+}
+
+footer {
+  width: 80%;
+  margin: 10%;
+}
+/*# sourceMappingURL=style.css.map */
